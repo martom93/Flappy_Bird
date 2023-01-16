@@ -3,6 +3,7 @@ import sys
 import random
 import time
 
+
 def game_floor():
     screen.blit(floor_base, (floor_x_pos, 900))
     screen.blit(floor_base, (floor_x_pos + 576, 900))
